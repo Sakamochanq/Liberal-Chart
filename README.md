@@ -1,3 +1,11 @@
+<div align="center">
+    <br>
+    <h1>Ranked Liberal</h1>
+    <h3>Easy sorting of liberal arts courses 🚀</h3>
+    <br>
+    <br>
+</div>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
