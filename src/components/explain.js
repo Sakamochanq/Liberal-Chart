@@ -4,11 +4,11 @@ export const explain = () => {
   return (
     <div class="explain-container">
       <div class="explain-header">
-        <h2 style={{marginBottom: '30px'}}>Ranked-Liberal って何？</h2>
+        <h2 style={{marginBottom: '30px'}}>* Ranked-Liberal とは？</h2>
         <p>
-          金沢工業大学のリベラルアーツ系科目における、<b> 比較的容易に単位を取得できる科目 </b>のSortです。
-          これは<b> Sakamochanq </b>によって作成・管理されており、内容には個人的な見解や偏見が含まれていることを理解してください。
-          また、こうしたSortの作成及びその閲覧が、必ずしも適切でない行為であることを十分に認識しておきましょう。
+          金沢工業大学のリベラルアーツ系科目の<b> 早見表 </b>です。履修登録の際の参考にしましょう。
+          このサイトは<b> Sakamochanq </b> によって作成・管理されているため、情報の正確性は保証されません。
+          正規の情報は金沢工業大学の公式サイト又は、履修ガイドを参照してください。
         </p>
         <hr style={{width: '100%', margin: '50px 0px 50px 0px'}}></hr>
       </div>
