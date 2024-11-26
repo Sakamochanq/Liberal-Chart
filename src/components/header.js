@@ -3,7 +3,7 @@ import React from 'react'
 export const header = () => {
   return (
     <header>
-      <h3 class="nav-logo">Ranked-Liberal</h3>
+      <h3 class="nav-logo">RL</h3>
       <nav>
         <ul class="menu">
           <li class="menu-item"><a href="#">Home</a></li>
