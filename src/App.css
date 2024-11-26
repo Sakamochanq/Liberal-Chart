@@ -39,3 +39,36 @@ header {
   color: #d3d3d3;
   transition: all 0.3s;
 }
+
+/* Explain */
+
+.explain-container {
+  padding: 150px 300px 0px 300px;
+}
+
+.explain-header {
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .explain-container {
+    padding: 150px 30% 0px 30%;
+  }
+  .explain-container h2 {
+    font-size: 20px;
+  }
+
+  .explain-header {
+    margin: 0px 10px 0px 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .explain-container {
+    padding: 150px 5% 0px 5%;
+  }
+  .explain-container h2 {
+    font-size: 18px;
+  }
+  
+}
