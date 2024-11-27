@@ -1,0 +1,37 @@
+[
+    {
+        "rank-id": 1,
+        "name": "None",
+        "degree": "★☆☆☆☆",
+        "inside-job": true,
+        "description": "text-1"
+    },
+    {
+        "rank-id": 2,
+        "name": "None",
+        "degree": "★★☆☆",
+        "inside-job": false,
+        "description": "text-2"
+    },
+    {
+        "rank-id": 4,
+        "name": "None",
+        "degree": "★☆☆☆",
+        "inside-job": true,
+        "description": "text-4"
+    },
+    {
+        "rank-id": 5,
+        "name": "None",
+        "degree": "★★★☆",
+        "inside-job": false,
+        "description": "text-5"
+    },
+    {
+        "rank-id": 6,
+        "name": "None",
+        "degree": "★★★★",
+        "inside-job": true,
+        "description": "text-6"
+    }
+]
