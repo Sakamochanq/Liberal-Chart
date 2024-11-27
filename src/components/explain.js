@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const explain = () => {
+export const Explain = () => {
   return (
     <div class="explain-container">
       <div class="explain-header">
@@ -15,4 +15,4 @@ export const explain = () => {
     </div>
   )
 }
-export default explain
+export default Explain

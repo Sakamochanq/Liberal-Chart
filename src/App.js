@@ -1,5 +1,5 @@
-import Header from './components/header'
-import Explain from './components/explain'
+import Header from './components/Header';
+import Explain from './components/Explain';
 import './App.css';
 
 function App() {
