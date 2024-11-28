@@ -70,18 +70,32 @@ header {
   .explain-container h2 {
     font-size: 18px;
   }
-  
 }
 
 /* Lists */
 
 .list-container {
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 310px;
 }
 .list-wrapper {
   padding: 50px 0px 50px 100px;
   box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   margin-bottom: 20px;
-  width: 400px;
+  width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .list-container {
+    margin: 0px 0px 0px 100px;
+  }
+  .list-wrapper {
+    margin-left: -65px;
+    width: 330px;
+  }
+  .list-wrapper {
+    h3, p {
+      margin-left: -30px;
+    }
+  }
 }
