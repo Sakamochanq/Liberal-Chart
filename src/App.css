@@ -63,7 +63,7 @@ header {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) { 
   .explain-container {
     padding: 150px 5% 0px 5%;
   }
