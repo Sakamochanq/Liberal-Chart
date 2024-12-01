@@ -90,7 +90,7 @@ header {
     margin: 0px 0px 0px 100px;
   }
   .list-wrapper {
-    margin: 0px 0px 0px -67px;
+    margin: 0px 0px 40px -67px;
     width: 330px;
   }
   .rank-id, .name, .degree, .inside-job, .description {
