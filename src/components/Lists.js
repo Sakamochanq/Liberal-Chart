@@ -35,7 +35,8 @@ const Lists = () => {
           <h3 style={{marginTop: "10px", marginBottom:"20px"}} className="name">{subject.name}</h3>
           <p style={{marginBottom: "10px"}} className="inside-job">試験：<b>{subject['inside-job'] ? '有' : '無'}</b></p>
           <p style={{marginBottom: "10px"}} className="degree">難易度：{subject.degree}</p>
-          <p style={{marginBottom: "10px"}} className="description">概要：{subject.description}</p>
+          <p style={{marginTop: "20px", marginBottom: "7px"}} className="description"><b>概要：</b></p>
+          <p className="description">{subject.description}</p>
         </div>
       ))}
     </div>
