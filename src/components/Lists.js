@@ -31,7 +31,7 @@ const Lists = () => {
       </form>
       {search.map((subject, index) => (
         <div className="list-wrapper" key={index}>
-          {/* <p style={{marginBottom: "10px"}} class="rank-id">ID：{subject['rank-id']}</p> */}
+          {/* <p style={{marginBottom: "10px"}} class="id">ID：{subject['id']}</p> */}
           <h3 style={{marginTop: "10px", marginBottom:"20px"}} className="name">{subject.name}</h3>
           <p style={{marginBottom: "10px"}} className="inside-job">試験：<b>{subject['inside-job'] ? '有' : '無'}</b></p>
           <p style={{marginBottom: "10px"}} className="degree">難易度：{subject.degree}</p>
