@@ -24,7 +24,11 @@ const Lists = () => {
 
   return (
     <div className="list-container">
-      <input ref={ref} type="text" placeholder="科目名で検索" onChange={handleSearch} />
+      <form className="search-form">
+        <label>
+          <input ref={ref} placeholder='科目名で検索' type="text" maxLength={"35px"} onChange={handleSearch} />
+        </label>
+      </form>
       {search.map((subject, index) => (
         <div className="list-wrapper" key={index}>
           {/* <p style={{marginBottom: "10px"}} class="rank-id">ID：{subject['rank-id']}</p> */}
