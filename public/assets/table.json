@@ -4,34 +4,34 @@
         "name": "Math",
         "degree": "★☆☆☆☆",
         "inside-job": true,
-        "description": "text-1"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a⋯"
     },
     {
         "rank-id": 2,
         "name": "Japanese",
         "degree": "★★☆☆",
         "inside-job": false,
-        "description": "text-2"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a⋯"
     },
     {
         "rank-id": 4,
         "name": "Science",
         "degree": "★☆☆☆",
         "inside-job": true,
-        "description": "text-4"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a⋯"
     },
     {
         "rank-id": 5,
         "name": "English",
         "degree": "★★★☆",
         "inside-job": false,
-        "description": "text-5"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a⋯"
     },
     {
         "rank-id": 6,
         "name": "History",
         "degree": "★★★★",
         "inside-job": true,
-        "description": "text-6"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a⋯"
     }
 ]
