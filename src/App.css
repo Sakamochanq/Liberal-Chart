@@ -166,10 +166,13 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+  footer {
+    height: 70px;
+  }
   .footer-nav {
-    font-size: 13px;
+    font-size: 11px;
   }
   .bold-text {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
