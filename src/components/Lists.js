@@ -11,14 +11,14 @@ const Lists = () => {
   }, []);
 
   return (
-    <div class="list-container">
+    <div className="list-container">
       {subjects.map((subject, index) => (
-        <div class="list-wrapper" key={index}>
+        <div className="list-wrapper" key={index}>
           {/* <p style={{marginBottom: "10px"}} class="rank-id">ID：{subject['rank-id']}</p> */}
-          <h3 style={{marginTop: "10px", marginBottom:"20px"}} class="name">{subject.name}</h3>
-          <p style={{marginBottom: "10px"}} class="inside-job">試験：<b>{subject['inside-job'] ? '有' : '無'}</b></p>
-          <p style={{marginBottom: "10px"}} class="degree">難易度：{subject.degree}</p>
-          <p style={{marginBottom: "10px"}} class="description">概要：{subject.description}</p>
+          <h3 style={{marginTop: "10px", marginBottom:"20px"}} className="name">{subject.name}</h3>
+          <p style={{marginBottom: "10px"}} className="inside-job">試験：<b>{subject['inside-job'] ? '有' : '無'}</b></p>
+          <p style={{marginBottom: "10px"}} className="degree">難易度：{subject.degree}</p>
+          <p style={{marginBottom: "10px"}} className="description">概要：{subject.description}</p>
         </div>
       ))}
     </div>

@@ -2,8 +2,8 @@ import React from 'react'
 
 export const Explain = () => {
   return (
-    <div class="explain-container">
-      <div class="explain-header">
+    <div className="explain-container">
+      <div className="explain-header">
         <h2 style={{marginBottom: '30px'}}>* Ranked-Liberal とは？</h2>
         <p>
           金沢工業大学のリベラルアーツ系科目の<b> 早見表 </b>です。履修登録の際の参考にしましょう。
