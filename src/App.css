@@ -78,11 +78,13 @@ header {
 /* https://pote-chil.com/css-stock/ja */
 
 .search-form {
+  margin: 50px 0px 50px 0px;
   display: flex;
   align-items: center;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
   width: 400px;
+  box-shadow:  1px 1px 1px #bebebe, -1px -1px 1px #ffffff;
 }
 .search-form:hover {
   box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
