@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Explain from "./components/Explain";
 import Lists from "./components/Lists"
+import Footer from "./components/Footer";
 import './App.css';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <Header/>
       <Explain/>
       <Lists/>
+      <div style={{margin: "150px 0px 20px 0px"}}></div>
+      <Footer/>
     </div>
   );
 }
