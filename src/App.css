@@ -151,7 +151,7 @@ footer {
   flex-direction: column;
   position:relative;
   margin-top: 120px;
-  height: 100px;
+  height: 60px;
   display: flex;
   position: fixed;
   width: 100%;
@@ -160,19 +160,21 @@ footer {
 .footer-nav {
   text-align: left;
   margin-left: 30px;
+  font-size: 10px;
 }
 .bold-text {
-  font-size: 13px;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 700px) {
   footer {
-    height: 70px;
+    height: 40px;
   }
   .footer-nav {
-    font-size: 11px;
+    font-size: 8px;
+    margin-left: 10px;
   }
   .bold-text {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
