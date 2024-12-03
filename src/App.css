@@ -115,6 +115,26 @@ header {
   }
 }
 
+/* thumbnail */
+
+.thumb-image {
+  pointer-events: none;
+  filter: grayscale(100%);
+  margin: -15px 0px 0px 270px;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  object-fit: cover;
+}
+@media screen and (max-width: 700px) {
+  .thumb-image {
+    margin: -30px 0px 0px 170px;
+    width: 80px;
+    height: 40px;
+  }
+  
+}
+
 /* Lists */
 
 .list-container {
