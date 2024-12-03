@@ -145,19 +145,22 @@ header {
 /* Footer */
 
 footer {
-  box-shadow: 1px 0px 0px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffffd0;
+  border: #eeeeee solid 1px;
+  margin: 0px 0px 20px 20px;
+  border-radius: 40px;
   justify-content: center;
   flex-direction: column;
-  position:relative;
   margin-top: 120px;
   height: 60px;
   display: flex;
   position: fixed;
-  width: 100%;
+  width: 250px;
   bottom: 0;
 }
 .footer-nav {
+  padding: 10px 0px 10px 0px;
   text-align: left;
   margin-left: 30px;
   font-size: 10px;
@@ -168,9 +171,12 @@ footer {
 
 @media screen and (max-width: 700px) {
   footer {
+    margin: 0px 0px 20px 20px;
     height: 40px;
+    width: 200px;
   }
   .footer-nav {
+    padding: 10px 0px 10px 10px;
     font-size: 8px;
     margin-left: 10px;
   }
