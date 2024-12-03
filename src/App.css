@@ -12,6 +12,7 @@ body {
 
 /* Header */
 header {
+  z-index: 9999;
   display: flex;
   position: fixed;
   width: 100%;
