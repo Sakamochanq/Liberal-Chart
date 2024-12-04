@@ -1,6 +1,6 @@
 <div align="center">
     <br>
-    <h1>Ranked Liberal</h1>
+    <h1>Liberal Chart</h1>
     <h3>Easy sorting of liberal arts courses 🚀</h3>
     <br>
     <br>
