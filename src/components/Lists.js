@@ -22,6 +22,13 @@ const Lists = () => {
       .catch(error => console.error('Error loading the JSON file:', error));
   }, []);
 
+  const degreeRange = (rate) => {
+    if(rate < 1 || rate > 4) {
+      return 'notyet ranged.';
+    }
+    return '★'.repeat(rate) + '☆'.repeat(4 - rate);
+  };
+
   return (
     <div className="list-container">
       <form className="search-form">
@@ -35,7 +42,7 @@ const Lists = () => {
           {/* <p style={{marginBottom: "10px"}} class="id">ID：{subject['id']}</p> */}
           <h3 style={{marginTop: "10px", marginBottom:"20px"}} className="name">{subject.name}</h3>
           <p style={{marginBottom: "10px"}} className="inside-job">試験：<b>{subject['inside-job'] ? '有' : '無'}</b></p>
-          <p style={{marginBottom: "10px"}} className="degree">難易度：{subject.degree}</p>
+          <p style={{marginBottom: "10px"}} className="degree">難易度：{degreeRange(subject['degree'])}</p>
           <p style={{marginTop: "20px", marginBottom: "7px"}} className="description"><b>概要：</b></p>
           <p className="description">{subject.description}</p>
         </div>
