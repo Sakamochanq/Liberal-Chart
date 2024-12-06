@@ -185,7 +185,7 @@ footer {
 .footer-nav {
   padding: 10px 0px 10px 0px;
   text-align: left;
-  margin-left: 30px;
+  margin-left: 20px;
   font-size: 10px;
 }
 .bold-text {
@@ -201,7 +201,7 @@ footer {
   .footer-nav {
     padding: 10px 0px 10px 10px;
     font-size: 8px;
-    margin-left: 10px;
+    margin-left: 7px;
   }
   .bold-text {
     font-size: 8px;
