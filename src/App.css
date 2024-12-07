@@ -179,6 +179,7 @@ footer {
   height: 60px;
   display: flex;
   position: fixed;
+  cursor: pointer;
   width: 250px;
   bottom: 0;
 }
