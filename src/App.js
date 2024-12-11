@@ -1,3 +1,4 @@
+import Attention from "./components/Attention";
 import Header from "./components/Header";
 import Explain from "./components/Explain";
 import Lists from "./components/Lists"
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Explain/>
       <Lists/>
+      <Attention/>
       <div style={{margin: "150px 0px 20px 0px"}}></div>
       <Footer/>
     </div>
