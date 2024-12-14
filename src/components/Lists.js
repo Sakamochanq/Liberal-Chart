@@ -46,7 +46,7 @@ const Lists = () => {
           <p style={{marginTop: "20px", marginBottom: "7px"}} className="description"><b>概要：</b></p>
           <p className="description">{subject.description}</p>
           <br />
-          <a href={subject['link']} target="_blank">過去問</a>
+          <a className='link' href={subject['link']} target="_blank">過去問</a>
         </div>
       ))}
     </div>
