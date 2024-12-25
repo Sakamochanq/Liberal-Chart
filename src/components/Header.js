@@ -7,7 +7,7 @@ export const Header = () => {
       <nav>
         <ul className="menu">
           <li className="menu-item"><a href="#">Home</a></li>
-          <li className="menu-item"><a href="https://github.com/Sakamochanq" target="_blank">Help</a></li>
+          <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart" target="_blank">Help</a></li>
         </ul>
       </nav>
     </header>
