@@ -25,11 +25,11 @@
     },
     {
         "id": 4,
-        "name": "unnamed",
-        "degree": 5,
-        "examination": false,
-        "description": "{jsonFetch::table.json::4::description}",
-        "link": "https://example.com"
+        "name": "企業の組織と戦略",
+        "degree": 4,
+        "examination": true,
+        "description": "　この科目は毎授業２つのレポート課題がある。さらに、授業は課題レポートを用いたグループワークを通し意見をまとめ、その内容についての発表を行う。時間のない学生にはハードルの高い科目。また、計３回小テストがあり、教科書からの内容やレポート課題からの出題である。",
+        "link": "https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/#4"
     },
     {
         "id": 5,
@@ -41,11 +41,11 @@
     },
     {
         "id": 6,
-        "name": "unnamed",
-        "degree": 5,
+        "name": "サステナブルイノベーション",
+        "degree": 1,
         "examination": false,
-        "description": "{jsonFetch::table.json::6::description}",
-        "link": "https://example.com"
+        "description": "　この科目の普段の授業は基本的に聴講となり、稀にグループ内で討論を行ったりする。このグループメンバーは４～６人自由に組むことが出来る。毎回、授業の感想を書く課題が出題される。授業後半にはチームでボードゲームを考案、作成を行うため、組むチームメンバーは重要である。",
+        "link": "https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/#6"
     },
     {
         "id": 7,
