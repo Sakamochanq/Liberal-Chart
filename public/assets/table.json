@@ -35,7 +35,7 @@
         "id": 5,
         "name": "こころのはたらき",
         "degree": 3,
-        "examination": false,
+        "examination": true,
         "description": "　この科目は毎週教科書を予習しスライドを作成する必要がある。またグループワークが多くあり、友人や知人３～４人で組むことになる。小テスト計３回と期末試験がある。普段の授業は講義を聴きながら授業スライドを埋めていく感じとなるが、ランダムに指名され発言する場合もある。",
         "link": "https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/#5"
     },
