@@ -58,7 +58,7 @@
     {
         "id": 8,
         "name": "日本国憲法",
-        "degree": 5,
+        "degree": 4,
         "examination": true,
         "description": "　この科目は授業内で小論文作成を行うため、事前に新聞や時事問題を確認しておくと小論文を書き進めやすいけど、文章能力がない人からするとかなりつらい。レポート、テスト等は３年生配当であるため難易度は高い。試験は暗記というよりも問題に対する理解力・思考力が求められてくる。",
         "link": "https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/#8"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "name": "韓国語入門",
-        "degree": 4,
+        "degree": 3,
         "examination": true,
         "description": "　この科目は韓国語を学ぶ。授業冒頭で復習のための１０分程度の小テストを行う。また授業に伴った、毎回宿題やレポートも出題されるため、授業中にノートを取ることが必須となる。口頭発表では韓国語を使用した自己紹介スライドの作成する。韓国語興味ある人は面白いと思う。",
         "link": "https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/#9"
