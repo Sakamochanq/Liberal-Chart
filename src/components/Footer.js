@@ -11,7 +11,7 @@ export const Footer = () => {
     <footer onClick={handleTransparent} style={{opacity: isTransparent ? 0.2 : 1, transition: "opacity 0.1s ease"}}>
         <div className="footer-nav">
             <p>&copy; {new Date().getFullYear()} <b className="bold-text">Sakamochanq</b></p>
-            <p>Data and resources provided by <b className="bold-text">金沢工業大学</b></p>
+            <p>Data reference source <b className="bold-text">金沢工業大学</b></p>
         </div>
     </footer>
   );
