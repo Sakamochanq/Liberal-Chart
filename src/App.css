@@ -407,7 +407,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: #ffffff;
-    border: #cccccc solid 1px;
+    border: #cccccc solid 0.5px;
   }
   .menu-item a {
     width: 100%;
