@@ -23,8 +23,8 @@ export const Header = () => {
       <nav className={`menu-modal ${isMenuOpen ? 'open' : ''}`}>
         <ul className="menu">
           <li className="menu-item"><a href="#">Home</a></li>
-          <li className="menu-item"><a href="#">About</a></li>
-          <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart" target="_blank">Help</a></li>
+          <li className="menu-item"><a href="https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/" target='_blank'>FYI</a></li>
+          <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/" target="_blank">Help</a></li>
         </ul>
       </nav>
     </header>
