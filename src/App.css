@@ -327,7 +327,7 @@ footer {
 
 @media only screen and (max-width: 520px) {
   .modal-1__open-label {
-      margin-left: -40px;
+      /* margin-left: -40px; */
       max-width: 90%;
       padding: .94em 2.1em .94em 2.6em;
   }
