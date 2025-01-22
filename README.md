@@ -4,7 +4,7 @@
 <div align="center">
     <br>
     <h1>Liberal Chart</h1>
-    <h3>Easy sorting of liberal arts courses 🚀</h3>
+    <h3>Quick Guide to Liberal Arts Courses at Kanazawa Institute of Technology. 🔰</h3>
     <br>
     <br>
 </div>
