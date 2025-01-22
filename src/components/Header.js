@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (
     <header>
-      <img className='nav-logo' src="./assets/images/Liberal-Chart-logo.png"/>
+      <img className='nav-logo' src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png"/>
       <button onClick={toggleMenu} className="menu-button">
         <span></span>
         <span></span>
