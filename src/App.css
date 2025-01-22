@@ -51,6 +51,9 @@ header {
 }
 
 .nav-logo {
+  pointer-events: none;
+  user-select: none;
+  width: 35px;
   margin-right: auto;
   margin-left: 30px;
 }

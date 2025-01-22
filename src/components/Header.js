@@ -14,7 +14,7 @@ export const Header = () => {
 
   return (
     <header>
-      <h3 className="nav-logo">LC</h3>
+      <img className='nav-logo' src="./assets/images/Liberal-Chart-logo.png"/>
       <button onClick={toggleMenu} className="menu-button">
         <span></span>
         <span></span>
