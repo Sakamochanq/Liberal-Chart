@@ -5,6 +5,15 @@ import Lists from "./components/Lists"
 import Footer from "./components/Footer";
 import './App.css';
 
+/*
+
+2025年01月24日（金）
+一通りのすべてのページ・機能が完成しました。
+-------------------------------------
+🎉 コレデ ゼンブ オワリ 🎉
+
+*/
+
 function App() {
   return (
     <div className="App">
