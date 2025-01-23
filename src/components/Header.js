@@ -25,6 +25,7 @@ export const Header = () => {
           <li className="menu-item"><a href="#">Home</a></li>
           <li className="menu-item"><a href="https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/" target='_blank'>FYI</a></li>
           <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/blob/master/CONTRIBUTING.md" target='_blank'>Contributes</a></li>
+          {/* <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/commits/master/" target='_blank'>Changelog</a></li> */}
           <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/" target="_blank">Help</a></li>
         </ul>
       </nav>
