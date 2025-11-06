@@ -4,7 +4,7 @@ export const Explain = () => {
   return (
     <div className="explain-container">
       <div className="explain-header">
-        <h2 style={{ marginBottom: '30px' }}>* Liberal-Chart とは？</h2>
+        <h2 className="explain-title">* Liberal-Chart とは？</h2>
         <p>
           金沢工業大学のリベラルアーツ系科目の<b> 早見表 </b>です。履修登録の際の参考にしましょう。
           このサイトは<b> Sakamochanq </b> によって作成・管理されているため、情報の正確性は保証されません。
@@ -14,21 +14,21 @@ export const Explain = () => {
         <br />
 
         {/* detail */}
-        <h4>ご利用前に、以下の免責事項を必ずお読みください。</h4>
+        <h4 className="explain-subtitle">ご利用前に、以下の免責事項を必ずお読みください。</h4>
         <br />
         <div className="modal-1__wrap">
           <input type="radio" id="modal-1__open" className="modal-1__open-input" name="modal-1__trigger" />
-          <label for="modal-1__open" className="modal-1__open-label">免責事項</label>
+          <label htmlFor="modal-1__open" className="modal-1__open-label">免責事項</label>
           <input type="radio" id="modal-1__close" name="modal-1__trigger" />
           <div className="modal-1">
             <div className="modal-1__content-wrap">
-              <label for="modal-1__close" className="modal-1__close-label">×</label>
+              <label htmlFor="modal-1__close" className="modal-1__close-label">×</label>
               <div className="modal-1__content">
                 <br />
-                <div align="center" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                  <img style={{userSelect:"none", pointerEvents:"none"}} width={"30px"} src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png" alt="Liberal Chart Logo"/>
-                  <h2 style={{margin:"0px 20px 0px 20px"}}>免責事項</h2>
-                  <img style={{userSelect:"none", pointerEvents:"none"}} width={"30px"} src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png" alt="Liberal Chart Logo"/>
+                <div className="modal-header">
+                  <img className="modal-logo" src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png" alt="Liberal Chart Logo"/>
+                  <h2 className="modal-title">免責事項</h2>
+                  <img className="modal-logo" src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png" alt="Liberal Chart Logo"/>
                 </div>
                 <br />
                 <hr />
@@ -77,14 +77,14 @@ export const Explain = () => {
                 <br />
               </div>
             </div>
-            <label for="modal-1__close">
+            <label htmlFor="modal-1__close">
               <div className="modal-1__background"></div>
             </label>
           </div>
         </div>
 
         <br />
-        <hr style={{ width: '100%', margin: '50px 0px 50px 0px' }}></hr>
+        <hr className="section-divider"></hr>
       </div>
     </div>
   )
