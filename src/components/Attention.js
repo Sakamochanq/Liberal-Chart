@@ -4,7 +4,7 @@ const Attention = () => {
   return (
     <div className="attention-container">
         <div className="attention-contents">
-            <img style={{margin:"30% 0px 20px 0px", pointerEvents:"none"}} width={"100px"} className="cry-logo" src="https://em-content.zobj.net/source/microsoft/310/smiling-face-with-tear_1f972.png"/>
+            <img style={{margin:"30% 0px 20px 0px", pointerEvents:"none"}} width={"100px"} className="cry-logo" src="https://em-content.zobj.net/source/microsoft/310/smiling-face-with-tear_1f972.png" alt="Crying face emoji"/>
             <br />
             <h3>Oops... Sorry！</h3>
             <br />

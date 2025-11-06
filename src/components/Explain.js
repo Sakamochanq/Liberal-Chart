@@ -26,9 +26,9 @@ export const Explain = () => {
               <div className="modal-1__content">
                 <br />
                 <div align="center" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                  <img style={{userSelect:"none", pointerEvents:"none"}} width={"30px"} src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png"/>
+                  <img style={{userSelect:"none", pointerEvents:"none"}} width={"30px"} src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png" alt="Liberal Chart Logo"/>
                   <h2 style={{margin:"0px 20px 0px 20px"}}>免責事項</h2>
-                  <img style={{userSelect:"none", pointerEvents:"none"}} width={"30px"} src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png"/>
+                  <img style={{userSelect:"none", pointerEvents:"none"}} width={"30px"} src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png" alt="Liberal Chart Logo"/>
                 </div>
                 <br />
                 <hr />
