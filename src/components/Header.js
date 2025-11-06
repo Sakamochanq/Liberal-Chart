@@ -30,7 +30,7 @@ export const Header = () => {
       </button>
       <nav className={`menu-modal ${isMenuOpen ? 'open' : ''}`}>
         <ul className="menu">
-          <li className="menu-item"><a href="#home">Home</a></li>
+          <li className="menu-item"><a href="/">Home</a></li>
           <li className="menu-item"><a href="https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/" target='_blank' rel="noreferrer">FYI</a></li>
           <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/blob/master/CONTRIBUTING.md" target='_blank' rel="noreferrer">Contributes</a></li>
           {/* <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/commits/master/" target='_blank'>Changelog</a></li> */}

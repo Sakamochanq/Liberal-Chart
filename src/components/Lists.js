@@ -38,7 +38,7 @@ const Lists = () => {
       </form>
       {search.map((subject, index) => (
         <div className="list-wrapper" key={index}>
-          <img className="thumb-image" src="https://www.edarabia.com/wp-content/uploads/2018/05/kanazawa-institute-technology-nonoichi-japan.png" alt="Kanazawa Institute of Technology"/>
+          <img className="thumb-image" src="https://www.edarabia.com/wp-content/uploads/2018/05/kanazawa-institute-technology-nonoichi-japan.png" alt=""/>
           {/* <p className="id">ID：{subject['id']}</p> */}
           <h3 className="list-name name">{subject.name}</h3>
           <p className="list-info examination">試験：<b>{subject['examination'] ? '有' : '無'}</b></p>
