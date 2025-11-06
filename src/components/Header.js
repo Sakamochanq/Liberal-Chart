@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,10 +7,18 @@ export const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  document.body.addEventListener('click', (e) => {
-    if (e.target.closest('.menu-button') || e.target.closest('.menu-modal')) return;
-    setIsMenuOpen(false);
-  });
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (e.target.closest('.menu-button') || e.target.closest('.menu-modal')) return;
+      setIsMenuOpen(false);
+    };
+
+    document.body.addEventListener('click', handleClickOutside);
+
+    return () => {
+      document.body.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
 
   return (
     <header>
