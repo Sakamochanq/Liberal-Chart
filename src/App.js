@@ -21,7 +21,7 @@ function App() {
       <Explain/>
       <Lists/>
       <Attention/>
-      <div style={{margin: "100px 0px 20px 0px"}}></div>
+      <div className="app-bottom-spacing"></div>
       <Footer/>
     </div>
   );
