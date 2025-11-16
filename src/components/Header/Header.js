@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Header.css';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

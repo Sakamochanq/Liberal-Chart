@@ -1,5 +1,5 @@
 import Attention from "./components/Attention/Attention";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 import Explain from "./components/Explain/Explain";
 import Lists from "./components/Lists"
 import Footer from "./components/Footer";
