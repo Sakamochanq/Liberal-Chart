@@ -1,3 +1,8 @@
+### README
+
+
+<!-- 以下すべて React-App/Origin の Markdown
+
 <a href="https://github.com/ellerbrock/open-source-badges/">
     <img src="https://badges.frapsoft.com/os/v1/open-source.png?v=103">
 </a>
@@ -79,3 +84,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+--->
