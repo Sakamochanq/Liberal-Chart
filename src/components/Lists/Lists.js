@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import './Lists.css';
 
 const Lists = () => {
   const [subjects, setSubjects] = useState([]);

@@ -1,0 +1,26 @@
+/* Lists */
+
+.list-container {
+  margin: 0px 0px 0px 310px;
+}
+.list-wrapper {
+  padding: 50px 100px 70px 100px;
+  box-shadow: -1px 2px 4px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .list-container {
+    margin: 0px 0px 0px 100px;
+  }
+  .list-wrapper {
+    padding: 50px 30px 70px 65px;
+    margin: 0px 0px 40px -67px;
+    width: 330px;
+  }
+  .rank-id, .name, .degree, .examination, .description, .link {
+    margin-left: -30px;
+  }
+}
