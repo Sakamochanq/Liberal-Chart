@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Footer.css';
 
 export const Footer = () => {
   const [isTransparent, setIsTransparent] = useState(false);
