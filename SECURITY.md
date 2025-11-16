@@ -1,9 +1,7 @@
 <div align="center">
     <a href="#">
-        <img style="margin: 10px;" width="100px" src="./public/assets/images/Liberal-Chart-Logo.png">
+        <!-- <img style="margin: 10px;" width="100px" src="./public/assets/images/Liberal-Chart-Logo.png"> -->
     </a>
-    <br>
-    <br>
     <h1>- 免責事項 -</h1>
 </div>
 
