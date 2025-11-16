@@ -1,4 +1,5 @@
 import React from 'react'
+import './Attention.css'
 
 const Attention = () => {
   return (

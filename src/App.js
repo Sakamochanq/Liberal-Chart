@@ -1,4 +1,4 @@
-import Attention from "./components/Attention";
+import Attention from "./components/Attention/Attention";
 import Header from "./components/Header";
 import Explain from "./components/Explain";
 import Lists from "./components/Lists"

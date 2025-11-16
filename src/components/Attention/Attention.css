@@ -1,0 +1,18 @@
+
+/* Attention */
+
+.attention-container {
+  display: none;
+}
+@media screen and (min-width: 701px) and (max-width: 1040px)  {
+  .explain-container, .list-container {
+    display: none;
+  }
+  .attention-container {
+    margin: 0% 0px 20% 0px;
+    display: block;
+  }
+  .attention-contents {
+    text-align: center;
+  }
+}
