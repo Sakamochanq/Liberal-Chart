@@ -154,12 +154,17 @@ header {
 
 .explain-title {
   margin-bottom: var(--spacing-md);
-  color: var(--accent-color-2);
+  font-weight: 700;
   background: var(--accent-bg-light);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-weight: 700;
+}
+
+@supports not (background-clip: text) {
+  .explain-title {
+    color: var(--accent-color-2);
+  }
 }
 
 .explain-subtitle {
@@ -313,12 +318,17 @@ header {
 
 .list-name {
   margin: var(--spacing-xs) 0 var(--spacing-sm) 0;
-  color: var(--accent-color);
+  font-weight: 700;
   background: var(--accent-bg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-weight: 700;
+}
+
+@supports not (background-clip: text) {
+  .list-name {
+    color: var(--accent-color);
+  }
 }
 
 .list-info {
@@ -430,7 +440,6 @@ footer:hover {
 }
 
 .modal-1__open-label {
-  color: var(--accent-color);
   font-size: 0.95em;
   font-weight: bold;
   padding: var(--spacing-xs) var(--spacing-sm);
@@ -522,11 +531,16 @@ footer:hover {
   justify-content: center;
   align-items: center;
   padding: var(--spacing-sm) 0;
-  color: var(--accent-color);
   background: var(--accent-bg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+@supports not (background-clip: text) {
+  .modal-header {
+    color: var(--accent-color);
+  }
 }
 
 .modal-logo {
