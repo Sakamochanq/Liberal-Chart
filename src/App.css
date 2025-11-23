@@ -154,6 +154,7 @@ header {
 
 .explain-title {
   margin-bottom: var(--spacing-md);
+  color: var(--accent-color-2);
   background: var(--accent-bg-light);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -286,7 +287,6 @@ header {
   margin-bottom: var(--spacing-md);
   padding: var(--spacing-lg) 100px 70px 100px;
   border-radius: var(--border-radius-md);
-  background: var(--primary-bg);
   box-shadow: var(--shadow-pop);
   border: 3px solid transparent;
   background: linear-gradient(white, white) padding-box,
@@ -313,6 +313,7 @@ header {
 
 .list-name {
   margin: var(--spacing-xs) 0 var(--spacing-sm) 0;
+  color: var(--accent-color);
   background: var(--accent-bg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -521,6 +522,7 @@ footer:hover {
   justify-content: center;
   align-items: center;
   padding: var(--spacing-sm) 0;
+  color: var(--accent-color);
   background: var(--accent-bg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
