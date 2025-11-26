@@ -3,7 +3,7 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
-.footer-001 {
+.footer {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,12 +11,12 @@ a {
     background-color: #2589d0;
 }
 
-.footer-001__logo {
+.footer_logo {
     width: 130px;
     height: 30px;
 }
 
-.footer-001__list {
+.footer_list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,13 +26,13 @@ a {
     padding: .5em;
 }
 
-.footer-001__link {
+.footer_link {
     color: #FFFFFF;
     text-decoration: none;
     margin-bottom: 10px;
 }
 
-.footer-001__copyright {
+.footer_copyright {
     margin: 0;
     color: #ffffffb3;
     font-weight: 200;

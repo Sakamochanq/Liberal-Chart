@@ -33,10 +33,10 @@ const Lists = () => {
   return (
     <div className="lists-container">
 
-      <h2 className="heading-28" data-label="LOOK FOR IT">科目を見つける</h2>
+      <h2 className="heading" data-label="LOOK FOR IT">科目を見つける</h2>
       <br /><br /><br />
 
-      <form action="#" className="search-form-3">
+      <form action="#" className="search-form">
         <label>
           <input ref={ref} placeholder='科目名で検索' type="text" maxLength={"35px"} onChange={handleSearch} />
         </label>
