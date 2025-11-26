@@ -1,19 +1,13 @@
-import React, { useState } from 'react';
 import './Footer.css';
 
 export const Footer = () => {
-  const [isTransparent, setIsTransparent] = useState(false);
-
-  const handleTransparent = () => {
-    setIsTransparent(!isTransparent);
-  }
 
   return (
-    <footer onClick={handleTransparent} style={{opacity: isTransparent ? 0.2 : 1, transition: "opacity 0.1s ease"}}>
-        <div className="footer-nav">
-            <p>&copy; {new Date().getFullYear()} <b className="bold-text">Sakamochanq</b></p>
-            <p>Data reference source <b className="bold-text">金沢工業大学</b></p>
-        </div>
+    <footer className="footer-001">
+      <a className="footer-001__link" href="#">LIBERAL CHART</a>
+      <p className="footer-001__copyright">&copy; {new Date().getFullYear()} LIBERAL CHART. All rights reserved.</p>
+      <p className="footer-001__copyright">Data source CSS Stock and 金沢工業大学</p>
+      <br />
     </footer>
   );
 };
