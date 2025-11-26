@@ -1,0 +1,16 @@
+[
+    {
+        "id": 0,
+        "name": "Subject Name",
+        "degree": 3,
+        "examination": false,
+        "description": "This is a sample description for the subject. It provides an overview of the course content, assessment methods, and any special requirements or recommendations for students interested in enrolling in this subject."
+    },
+    {
+        "id": 1,
+        "name": "Subject Name",
+        "degree": 2,
+        "examination": false,
+        "description": "This is a sample description for the subject. It provides an overview of the course content, assessment methods, and any special requirements or recommendations for students interested in enrolling in this subject."
+    }
+]

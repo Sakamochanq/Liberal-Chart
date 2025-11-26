@@ -1,8 +1,7 @@
-import Attention from "./components/Attention";
-import Header from "./components/Header";
-import Explain from "./components/Explain";
-import Lists from "./components/Lists"
-import Footer from "./components/Footer";
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
+import Lists from "./components/Lists/Lists"
+import Footer from "./components/Footer/Footer";
 import './App.css';
 
 /*
@@ -18,10 +17,10 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Explain/>
+      <br />
+      <Home/>
       <Lists/>
-      <Attention/>
-      <div style={{margin: "100px 0px 20px 0px"}}></div>
+      {/* <div style={{margin: "100px 0px 20px 0px"}}></div> */}
       <Footer/>
     </div>
   );
