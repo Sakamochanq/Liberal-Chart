@@ -1,37 +1,39 @@
-import React, { useState } from 'react';
-import './Header.css';
+import React, { useState, useEffect } from 'react'
+import './Header.css'
 
 export const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const [MenuOpen, setMenuOpen] = useState(false)
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
-
-  document.body.addEventListener('click', (e) => {
-    if (e.target.closest('.menu-button') || e.target.closest('.menu-modal')) return;
-    setIsMenuOpen(false);
-  });
+    setMenuOpen(!MenuOpen)
+  }
+  const closeMenu = (e) => {
+    if (!e.target.closest('.menu-item') && !e.target.closest('.menu-button')) {
+      setMenuOpen(false)
+    }
+  }
+  useEffect(() => {
+    document.addEventListener('click', closeMenu)
+    return () => {
+      document.removeEventListener('click', closeMenu)
+    }
+  }, [])
 
   return (
     <header>
-      <img className='nav-logo' src="https://liberal-chart.vercel.app/assets/images/Liberal-Chart-Logo.png"/>
-      <button onClick={toggleMenu} className="menu-button">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav className={`menu-modal ${isMenuOpen ? 'open' : ''}`}>
-        <ul className="menu">
-          <li className="menu-item"><a href="#">Home</a></li>
-          <li className="menu-item"><a href="https://www.kanazawa-it.ac.jp/campus_guide/2023/chapter_6/undergraduate/liberalarts/" target='_blank'>FYI</a></li>
-          <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/blob/master/CONTRIBUTING.md" target='_blank'>Contributes</a></li>
-          {/* <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/commits/master/" target='_blank'>Changelog</a></li> */}
-          <li className="menu-item"><a href="https://github.com/Sakamochanq/Liberal-Chart/" target="_blank">Help</a></li>
-        </ul>
-      </nav>
+        <h1 className='nav-logo'>Chart</h1>
+        <button onClick={toggleMenu} className="menu-button">
+          <span></span><span></span><span></span>
+        </button>
+        <nav className={`menu-modal ${MenuOpen ? 'open' : ''}`}>
+            <ul className='menu'>
+                <li className='menu-item'><a href="./">Home</a></li>
+                <li className='menu-item'><a href="https://github.com/Sakamochanq">About</a></li>
+                <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart">Source</a></li>
+                <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart/issues">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-  );
-};
+  )
 
-export default Header;
+}
+export default Header

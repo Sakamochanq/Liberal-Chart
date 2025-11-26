@@ -13,7 +13,7 @@ const Lists = () => {
   }
 
   useEffect(() => {
-    fetch('./assets/table.json')
+    fetch('./assets/test.json')
       .then(response => response.json())
       .then(data => {
         setSubjects(data);
@@ -39,7 +39,7 @@ const Lists = () => {
       </form>
       {search.map((subject, index) => (
         <div className="list-wrapper" key={index}>
-          <img className="thumb-image" src="https://www.edarabia.com/wp-content/uploads/2018/05/kanazawa-institute-technology-nonoichi-japan.png"></img>
+          <img className="thumb-image" src="" alt="logo"></img>
           {/* <p style={{marginBottom: "10px"}} class="id">ID：{subject['id']}</p> */}
           <h3 style={{marginTop: "10px", marginBottom:"20px"}} className="name">{subject.name}</h3>
           <p style={{marginBottom: "10px"}} className="examination">試験：<b>{subject['examination'] ? '有' : '無'}</b></p>
