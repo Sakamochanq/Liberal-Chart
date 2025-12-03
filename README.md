@@ -1,81 +1,112 @@
-<a href="https://github.com/ellerbrock/open-source-badges/">
-    <img src="https://badges.frapsoft.com/os/v1/open-source.png?v=103">
-</a>
 <div align="center">
-    <br>
-    <h1>Liberal Chart</h1>
-    <h3>Quick Guide to Liberal Arts Courses at Kanazawa Institute of Technology. 🔰</h3>
-    <br>
-    <br>
+    <a href="#">
+        <img src="" />
+    </a>
+    <h3>Liberal-Chart</h3>
+    <h4>- Sakamochanq -</h4>
 </div>
 
-# Getting Started with Create React App
+<br>
+<br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+金沢工業大学のリベラルアーツ系科目の早見表です。json形式で管理しているため、編集、追記、削除などの操作を簡単に行うことができます。
+素人が作成したサービスであるため、UI/UX等 ユーザビリティの良悪は不明です。
+また、こちらのサイトは学生が履修登録を行う際の参考にしていただくことを目的としています。
+掲載されている情報は、個人の経験や調査に基づいており、公式な情報源ではありません。最新の情報や詳細については、
+大学の公式サイトやeシラバスを参照してください。[**免責事項**](./SECURITY.md)を要確認の上で、ご利用ください。
+私が卒業するまでに、このリポジトリの継いでくれる方が現れなければ、時期サービスは終了するでしょう。
 
-### `npm start`
+<br>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+* 2025年 11月 30日 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `npm run build`
+<div align="center">
+    <a href="#">
+        <img src="./public/assets/images/screenie/Screen01.png" width="500px" />
+    </a>
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br>
+<br>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+ローカルにインストール
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> gitがインストールされていない場合は、`<> Code Download ZIP`からダウンロードしてください。
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/Sakamochanq/Liberal-Chart.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+依存関係のインストール
 
-## Learn More
+```bash
+npm install
+#or
+yarn install
+``` 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ローカルサーバーの起動  
+`https://localhost:3000`で起動します。
 
-### Code Splitting
+```bash
+npm start
+#or
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
+<br>
 
-### Analyzing the Bundle Size
+## Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+Vercelを利用してデプロイしています。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<div>
+    <a href="https://vercel.com/new">
+        <img src="./public/assets/images/VercelDeploy.svg" width="100px" />
+    </a>
+</div>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
+<br>
 
-### Deployment
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
+* [Sakamochanq](https://github.com/Sakamochanq) による開発・保守
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    * [Github Copilot](https://github.com/features/copilot) による開発支援
+
+    * [CSS Stock](https://pote-chil.com/css-stock/ja/) によるデザイン支援
+
+
+<br>
+
+## License
+
+<br>
+
+Release under the [Apache 2.0](./LICENSE) License.
