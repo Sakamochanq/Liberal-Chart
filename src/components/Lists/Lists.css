@@ -110,4 +110,8 @@
     .search-form-3 {
         width: 90%;
     }
+
+    .search-form button {
+        display: none;
+    }
 }
