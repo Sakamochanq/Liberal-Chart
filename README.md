@@ -40,6 +40,19 @@
 <br>
 <br>
 
+* 2025年 01月 24日
+
+<br>
+
+<div align="center">
+    <a href="#">
+        <img src="./public/assets/images/screenie/Screen02.png" width="500px" />
+    </a>
+</div>
+
+<br>
+<br>
+
 ## Install
 
 <br>
