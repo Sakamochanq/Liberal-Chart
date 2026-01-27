@@ -4,7 +4,7 @@ const Home = () => {
     return (
         <div className="home-container">
             <div className="logo-area">
-                <img className="logo-image" src={process.env.PUBLIC_URL + '/assets/images/School.png'}/>
+                <img className="logo-image" alt="Logo" src={process.env.PUBLIC_URL + '/assets/images/School.png'}/>
             </div>
             <div className="text-area">
                 <h3 className="title">Getting Started</h3>
