@@ -32,9 +32,7 @@
 <br>
 
 <div align="center">
-    <a href="#">
-        <img src="./public/assets/images/screenie/Screen01.png" width="500px" />
-    </a>
+    <img src="./public/assets/images/screenie/Screen01.png" width="500px" />
 </div>
 
 <br>
@@ -45,9 +43,7 @@
 <br>
 
 <div align="center">
-    <a href="#">
-        <img src="./public/assets/images/screenie/Screen02.png" width="500px" />
-    </a>
+    <img src="./public/assets/images/screenie/Screen02.png" width="500px" />
 </div>
 
 <br>
