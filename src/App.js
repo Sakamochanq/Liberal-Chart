@@ -2,6 +2,7 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import Lists from "./components/Lists/Lists"
 import Footer from "./components/Footer/Footer";
+import { Announcement } from "./components/Announcement/Announcement";
 import './App.css';
 
 /*
@@ -19,6 +20,9 @@ function App() {
       <Header/>
       <br />
       <Home/>
+      <br />
+      <Announcement/>
+      <br /><br />
       <Lists/>
       {/* <div style={{margin: "100px 0px 20px 0px"}}></div> */}
       <Footer/>
