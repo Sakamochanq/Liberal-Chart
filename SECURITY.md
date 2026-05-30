@@ -2,7 +2,7 @@
     <a href="#">
         <!-- <img style="margin: 10px;" width="100px" src="./public/assets/images/Liberal-Chart-Logo.png"> -->
     </a>
-    <h1>- 免責事項 -</h1>
+    <h2>- 免責事項 -</h2>
 </div>
 
 <br>
