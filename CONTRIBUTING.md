@@ -44,7 +44,7 @@ npm install
 3. **開発サーバーを起動します。**  
 
 ```bash
-npm run dev
+npm start
 ```
 
 <br>
@@ -144,7 +144,7 @@ git checkout -b feat-<improvement-description>
 
 ```bash
 git add .
-git commit -m "Feat: <improvement-description>"
+git commit -m "feat: <improvement-description>"
 git push origin <branch-name>
 ```
 
