@@ -30,7 +30,7 @@ export const Header = () => {
             <ul className='menu'>
                 <li className='menu-item'><a href="./">ホーム</a></li>
                 <li className='menu-item'><a href="#announcement">お知らせ</a></li>
-                <li className='menu-item'><a href="#" onClick={(e) => { e.preventDefault(); setDisclaimerOpen(true); setMenuOpen(false); }}>免責事項</a></li>
+                <li className='menu-item'><button type="button" onClick={() => { setDisclaimerOpen(true); setMenuOpen(false); }}>免責事項</button></li>
                 <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart/issues">お問い合わせ</a></li>
             </ul>
         </nav>
