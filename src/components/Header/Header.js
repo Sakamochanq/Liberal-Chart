@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import './Header.css'
+import Disclaimer from '../Disclaimer/Disclaimer'
 
 export const Header = () => {
   const [MenuOpen, setMenuOpen] = useState(false)
+  const [disclaimerOpen, setDisclaimerOpen] = useState(false)
   const toggleMenu = () => {
     setMenuOpen(!MenuOpen)
   }
@@ -28,10 +30,11 @@ export const Header = () => {
             <ul className='menu'>
                 <li className='menu-item'><a href="./">ホーム</a></li>
                 <li className='menu-item'><a href="#announcement">お知らせ</a></li>
-                <li className='menu-item'><a href="">免責事項</a></li>
+                <li className='menu-item'><a href="#" onClick={(e) => { e.preventDefault(); setDisclaimerOpen(true); setMenuOpen(false); }}>免責事項</a></li>
                 <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart/issues">お問い合わせ</a></li>
             </ul>
         </nav>
+        <Disclaimer isOpen={disclaimerOpen} onClose={() => setDisclaimerOpen(false)} />
     </header>
   )
 
