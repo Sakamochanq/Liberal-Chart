@@ -32,7 +32,7 @@ export const Announcement = () => {
   };
 
   return (
-    <div className="announcement-container">
+    <div id="announcement" className="announcement-container">
         <h2 class="heading" data-label="ANNOUNCE">お知らせ</h2>
         <br /><br /><br />
 

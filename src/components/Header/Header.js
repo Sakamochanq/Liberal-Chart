@@ -26,10 +26,10 @@ export const Header = () => {
         </button>
         <nav className={`menu-modal ${MenuOpen ? 'open' : ''}`}>
             <ul className='menu'>
-                <li className='menu-item'><a href="./">Home</a></li>
-                <li className='menu-item'><a href="https://github.com/Sakamochanq">About</a></li>
-                <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart">Source</a></li>
-                <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart/issues">Contact</a></li>
+                <li className='menu-item'><a href="./">ホーム</a></li>
+                <li className='menu-item'><a href="#announcement">お知らせ</a></li>
+                <li className='menu-item'><a href="">免責事項</a></li>
+                <li className='menu-item'><a href="https://github.com/Sakamochanq/Liberal-Chart/issues">お問い合わせ</a></li>
             </ul>
         </nav>
     </header>
